@@ -5,7 +5,7 @@ birth_year = int(input("Enter your birth year: "))
 
 #Use an if-else selection structure to validate the birth year input of the user.
 if birth_year < 1900:
-  print("Invalid year. The year of birth must be earlier than 1900.")
+  print("Invalid year, the birth year cannot be earlier than 1900.")
 else:
   chinese_zodiac_number = (birth_year - 1900) % 12
 
